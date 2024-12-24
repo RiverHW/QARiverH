@@ -16,6 +16,8 @@
 		04A78E9C2D190DFB00AA5862 /* QARiverHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A78E9B2D190DFB00AA5862 /* QARiverHTests.swift */; };
 		04A78EA62D190DFB00AA5862 /* QARiverHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A78EA52D190DFB00AA5862 /* QARiverHUITests.swift */; };
 		04A78EA82D190DFB00AA5862 /* QARiverHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A78EA72D190DFB00AA5862 /* QARiverHUITestsLaunchTests.swift */; };
+		04A78EB62D190E3D00AA5862 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A78EB42D190E3D00AA5862 /* BaseCollectionViewCell.swift */; };
+		04A78EB72D190E3D00AA5862 /* BaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A78EB52D190E3D00AA5862 /* BaseCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04A78EA12D190DFB00AA5862 /* QARiverHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QARiverHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A78EA52D190DFB00AA5862 /* QARiverHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QARiverHUITests.swift; sourceTree = "<group>"; };
 		04A78EA72D190DFB00AA5862 /* QARiverHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QARiverHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A78EB42D190E3D00AA5862 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A78EB52D190E3D00AA5862 /* BaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				04A78E842D190DF800AA5862 /* AppDelegate.swift */,
 				04A78E862D190DF800AA5862 /* SceneDelegate.swift */,
 				04A78E882D190DF800AA5862 /* ViewController.swift */,
+				04A78EB42D190E3D00AA5862 /* BaseCollectionViewCell.swift */,
+				04A78EB52D190E3D00AA5862 /* BaseCollectionViewCell.xib */,
 				04A78E8A2D190DF800AA5862 /* Main.storyboard */,
 				04A78E8D2D190DFA00AA5862 /* Assets.xcassets */,
 				04A78E8F2D190DFA00AA5862 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A78E8E2D190DFA00AA5862 /* Assets.xcassets in Resources */,
+				04A78EB72D190E3D00AA5862 /* BaseCollectionViewCell.xib in Resources */,
 				04A78E912D190DFA00AA5862 /* Base in Resources */,
 				04A78E8C2D190DF800AA5862 /* Base in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A78E892D190DF800AA5862 /* ViewController.swift in Sources */,
+				04A78EB62D190E3D00AA5862 /* BaseCollectionViewCell.swift in Sources */,
 				04A78E852D190DF800AA5862 /* AppDelegate.swift in Sources */,
 				04A78E872D190DF800AA5862 /* SceneDelegate.swift in Sources */,
 			);
@@ -442,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S477XUK26U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QARiverH/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,11 +463,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = langtu.QARiverH;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QARiverH.render;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,6 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S477XUK26U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QARiverH/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -481,11 +493,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = langtu.QARiverH;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QARiverH.render;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
