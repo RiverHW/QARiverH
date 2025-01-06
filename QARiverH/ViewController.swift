@@ -17,7 +17,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         
         view.addSubview(mainCollectionView)
         
-        self.title = "数学思维训练"
+        self.title = "最强算数"
     }
     
     var randomData = 0
@@ -138,6 +138,11 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.section == 1 {
+            if  isfinish {
+                return
+            }
+            
+            
             if answerArray[level%2][randomData] == indexPath.row{
                 level = level + 1
                 self.loadData()
